@@ -1,0 +1,9 @@
+1)What is method ? what is function?
+     A set of code that has written in program is said to the function which is not defined within a class. Also the set of code written inside the class is said to be the method. And In java, everything is written inside the class as java is object oriented so there is no function concept in java hence they are said to be methods.
+
+2)Method definition ? Method calling?
+    Method definition is writting the set of code that does their respective operation within their class. Method calling is the intiating the method to do its operation. Methods are executed in run-time when ever it is called. While calling the method we can provide the data or object to the method for its Execution.
+
+3) Parameterized methods and Non-Parameterized methods?
+    The methods can be Parameterized and also Non-Parameterized where the parameterized methods passes date/oject to the method for its operation. and where as non parameterized method does not pass any data/oject to the method for its execution.
+
