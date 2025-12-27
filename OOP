@@ -5,5 +5,11 @@
     Method definition is writting the set of code that does their respective operation within their class. Method calling is the intiating the method to do its operation. Methods are executed in run-time when ever it is called. While calling the method we can provide the data or object to the method for its Execution.
 
 3) Parameterized methods and Non-Parameterized methods?
-    The methods can be Parameterized and also Non-Parameterized where the parameterized methods passes date/oject to the method for its operation. and where as non parameterized method does not pass any data/oject to the method for its execution.
+    The methods can be Parameterized and also Non-Parameterized where the parameterized methods passes date/object to the method for its operation. and where as non parameterized method does not needed to pass any data/oject to the method for its execution.
 
+4) What is object oriented programming?
+     Basically, Object-Oriented Programming is a programming concept that represents real-world entities in software using classes and objects. It is based on the core principles of encapsulation, abstraction, inheritance, and polymorphism, which help in creating reusable, secure, and maintainable code.
+     For example: In a Car system, the car is represented as a class, vehicles like BMW or Audi are objects, engine details are encapsulated, driving functionality is abstracted, an ElectricCar can inherit from a Car, and the start method demonstrates polymorphism by behaving differently for petrol and electric cars.
+
+5) What is Class?
+     
