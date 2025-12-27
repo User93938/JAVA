@@ -11,5 +11,38 @@
      Basically, Object-Oriented Programming is a programming concept that represents real-world entities in software using classes and objects. It is based on the core principles of encapsulation, abstraction, inheritance, and polymorphism, which help in creating reusable, secure, and maintainable code.
      For example: In a Car system, the car is represented as a class, vehicles like BMW or Audi are objects, engine details are encapsulated, driving functionality is abstracted, an ElectricCar can inherit from a Car, and the start method demonstrates polymorphism by behaving differently for petrol and electric cars.
 
-5) What is Class?
-     
+5) What is Object?
+     The Object is a real-world entity having some state, behavior and identity. In Java, an Object is an instance of a class that has instance variables as the state of the object and methods as the behavior of the object. where the unique memory location as the identity which differentiaties from others. The object of a class can be created by using the "new" keyword.
+
+     For example, if we have a class called Car, an object of that class could represent a specific car with attributes like color, model, year, and methods like startEngine() or drive(). Each instance of the Car class would be a distinct object with its own unique state.
+
+6) What is Class?
+     Class is a user-defined data type that defines a group of object with similar properties and behaviour.It acts as a blueprint or template from which individual objects are created. A class does not occupy memory until an object is instantiated from it. Multiple objects can be created from a single class, each having its own state and identity.
+
+7) What is Inheritence?
+     Inheritance in Java is a mechanism where one class (subclass) acquires the properties and methods of another class (superclass). It supports code reusability, method overriding, and establishes an IS-A (parent–child) relationship between classes.
+
+     class Subclass-name extends Superclass-name  
+     {  
+        //methods and fields  
+     } 
+
+8) Types of Inheritance
+     i) Single Inheritance
+     ii) Multilevel Inheritance
+     iii) Hierarchical Inheritance
+     iv )Multiple Inheritance (not supported using classes in Java)
+     v) Hybrid Inheritance (not supported using classes in Java)
+
+SINGLE LEVEL INHERITANCE --   there is a single base class & a single derived clas.(Father-->Son)
+
+MULTI LEVEL INHERITANCE --  there is more than one single level of derivation. (Grandfateher-->Father-->Son)
+
+HIERARCHICAL LEVEL INHERITANCE -- multiple derived classes would be extended from a base class. (Father-->Son)
+                                                                                                    |
+                                                                                                 (Daugter)
+
+HYBRID INHERITANCE -- Single, multilevel, & hierarchical inheritance all together construct hybrid inheritance.
+
+MULTIPLE INHERITANCE -- derived class will extend from multiple base classes  Note: To reduce the complexity and simplify the language, multiple inheritance is not
+                         supported in Javalanguage.  While Java doesn't supportmultiple inheritance directly, it can be achieved through interface.
